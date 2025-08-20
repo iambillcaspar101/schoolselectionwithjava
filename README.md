@@ -4,17 +4,16 @@ A Java-based school selection application built using Apache NetBeans. This proj
 
  Table of Contents
 
-- [Project Overview](#project-overview)  
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Running the Application](#running-the-application)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)
-
+- Project Overview
+- Features 
+- Technologies Used  
+- Getting Started  
+  - Prerequisites 
+  - Installation
+  - Running the Application
+- Project Structure
+- Contributing
+- License
 
 Project Overview
 
@@ -71,11 +70,20 @@ Prerequisites
      ant clean jar
      java -cp dist/schoolselectionwithjava.jar your.package.Main
 5.schoolselectionwithjava/
-   
+    ├─ build/ # Ant build output (generated)
+    ├─ dist/ # Packaged artifacts (e.g., runnable JAR)
+    ├─ nbproject/ # NetBeans metadata
+    ├─ src/ # Java source code
+    ├─ build.xml # Ant build script
+    ├─ manifest.mf # JAR manifest (optionally sets Main-Class)
+    ├─ schoolselection.iml # IDE module file (optional)
+    ├─ README.md # This file
+    ├─ Gidi_Mary_0007785.pdf # Example document (present in repo root)
+    └─ Sento_Benson_82749893.pdf # Example document (present in repo root)
 6. Contributing
     Fork this repo
     Create a feature branch: git checkout -b feat/my-change
     Commit: git commit -m "Add my change"
     Push: git push origin feat/my-change
     Open a Pull Request
-7. No license has been added yet. If you intend the project to be open source, consider adding an MIT or Apache-2.0 license.
+7. No license has been added yet. If you intend the project to be open-source, consider adding an MIT or Apache 2.0 license.
