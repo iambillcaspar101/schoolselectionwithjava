@@ -1,2 +1,2 @@
 # schoolselectionwithjava
-schoo lselection with java in apache netbeans
+school selection with java in apache netbeans
